@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_media_video_embed_with_captions",
+  "info": {
+    "displayName": "VideoEmbedWithCaption",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "EmbedCode": {
+      "type": "text"
+    },
+    "Caption": {
+      "type": "string"
+    }
+  }
+}

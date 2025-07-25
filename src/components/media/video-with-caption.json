@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_media_image_with_captions",
+  "info": {
+    "displayName": "MediaWithCaption",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

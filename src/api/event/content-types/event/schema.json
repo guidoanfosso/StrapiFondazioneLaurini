@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titolo": {
+      "type": "string",
+      "required": true
+    },
+    "DataEvento": {
+      "type": "date",
+      "required": true
+    },
+    "MainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ContenutoEvento": {
+      "type": "dynamiczone",
+      "components": [
+        "media.image-gallery",
+        "common.text-block",
+        "common.link-item",
+        "media.video-embed-with-caption",
+        "media.video-with-caption",
+        "common.text-image-block"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "DataFine": {
+      "type": "date"
+    },
+    "Location": {
+      "type": "text"
+    },
+    "SidebarQuickInfo": {
+      "type": "blocks"
+    },
+    "SidebarInformazioni": {
+      "type": "blocks"
+    },
+    "SidebarRassegnaStampa": {
+      "type": "blocks"
+    }
+  }
+}

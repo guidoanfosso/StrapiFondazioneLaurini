@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_text_image_blocks",
+  "info": {
+    "displayName": "TextImageBlock",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Text": {
+      "type": "blocks"
+    }
+  }
+}
