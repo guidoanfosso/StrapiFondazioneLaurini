@@ -18,3 +18,6 @@ module.exports = {
    */
   bootstrap(/*{ strapi }*/) {},
 };
+ /**
+   * Tanti saluti
+   */
