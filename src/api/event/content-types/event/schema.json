@@ -5,7 +5,7 @@
     "singularName": "event",
     "pluralName": "events",
     "displayName": "Event",
-    "description": ""
+    "description": "Event schema (test deploy)"
   },
   "options": {
     "draftAndPublish": true
